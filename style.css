@@ -1,0 +1,45 @@
+body{
+   background-color: darkblue;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+    box-shadow: 10px 10px 40px;
+    width: 50%;
+    margin: 0 auto;
+    
+    
+}
+.Login-box{
+display: flex;
+flex-direction: column;
+width: 50%;
+margin-bottom: 30px;
+}
+
+.Login-box h2{
+text-align: center;
+color: aliceblue;
+}
+.Login-box input{
+margin-bottom: 10px;
+padding: 10px 10px;
+
+}
+#submit-btn{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 7px;
+    transition: 0.3s;
+    cursor: pointer;
+    border: transparent;
+}
+#submit-btn:hover{
+    color: azure;
+    background-color: darkblue;
+    
+}
+

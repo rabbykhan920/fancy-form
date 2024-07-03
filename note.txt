@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fancy-form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <form action="" class="Login-box">
+            <h2>Please Login</h2>
+        <input type="email" placeholder="enter your email">
+        <input type="password" placeholder="enter your password">
+        <input type="button" value="button" id="submit-btn">
+        </form>
+    </section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+body{
+    background-color: blueviolet;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    box-shadow: 10px 10px 40px;
+    
+    
+}
+.Login-box{
+display: flex;
+flex-direction: column;
+width: 50%;
+}
+.Login-box h2{
+text-align: center;
+color: aliceblue;
+}
+.Login-box input{
+margin-bottom: 20px;
+padding: 10px 10px;
+
+}
+#submit-btn{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 7px;
+    transition: 0.3s;
+    cursor: pointer;
+    border: transparent;
+}
+#submit-btn:hover{
+    color: azure;
+    background-color: blueviolet;
+    
+}
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- kits for font-awsome -->
+    <script src="https://kit.fontawesome.com/91c49206b2.js" crossorigin="anonymous"></script>
+    <!-- kits for font-awsome -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <!-- form start -->
+    <section class="login-container">
+        <form class="login">
+            <h2>Please Log In</h2>
+            <input type="email" name="" id="" placeholder="enter your email address" class="form-padding">
+            <input type="password" name="" id="" placeholder="password" class="form-padding">
+            <input type="submit" name="" id="" class=" form-padding">
+        </form>
+    </section>
+    <!-- form end -->
+</body>
+</html>
+
+
+
+
+
+
+
+body{
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);  
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-right: 10px;  
+
+}
+.menu{
+ margin: 0 auto;
+ padding-left: 100px;
+ 
+}
+.menu a{
+    color: white;
+   
+}
+.icon i{
+    color: white;
+}
+.login-container{
+    width: 50%;
+     display: flex;
+    justify-content: center;
+    margin-top: 40px !important;
+    box-shadow: 10px 10px 34px ;
+    margin: 0 auto;
+
+}
+.login{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+.form-padding{
+    padding: 10px 12px;
+    margin-top: 10px;
+}
+h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+   
+}
+.login input[type=submit]{
+    font-size: 20px;
+    font-weight: 700;
+    color: #17A7DF;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: .3s all ease-in;
+}
+.login input[type=submit]:hover{
+    background-color: transparent;
+}
